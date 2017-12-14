@@ -1,18 +1,16 @@
-# Basic Reason Template
+# Generic Reason Template
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
+> A simple and quick scaffold for a project with Reason and BuckleScript.
+
+This really just sets up the BuckleScript interop so you write OCaml and Reason and produce JavaScript. Good for generic projects or libraries.
 
 # Build
 ```
-npm run build
+make build
 ```
 
-# Build + Watch
+# Test
 
 ```
-npm run watch
+make test
 ```
-
-
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
