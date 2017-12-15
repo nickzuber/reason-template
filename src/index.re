@@ -1,2 +1,4 @@
 
-let arg = "demo msg: " ^ Demo.msg;
+open MyModule;
+
+let coreAttribute = "Core attribute and " ^ someAttribute;

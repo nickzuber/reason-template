@@ -6,8 +6,6 @@ build:
 	yarn run build
 
 test:
-	$(call print_msg, Building... )
-	yarn run build
 	$(call print_msg, Running tests... )
 	node ./test/
 
