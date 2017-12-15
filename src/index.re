@@ -1,4 +1,4 @@
 
 open MyModule;
 
-let coreAttribute = "Core attribute and " ^ someAttribute;
+let coreAttribute = "Core attribute and " ++ someAttribute;
